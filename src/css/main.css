@@ -1,0 +1,53 @@
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5e35b1;
+}
+
+ul,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+.main-outer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+/* MODAL CSS */
+
+:where(.css-dev-only-do-not-override-gzal6t).ant-steps .ant-steps-item-process .ant-steps-item-icon {
+	background-color: #4e35b1 !important;
+	border-color: #4e35b1 !important;
+}
+
+:where(.css-dev-only-do-not-override-gzal6t).ant-steps .ant-steps-item-finish .ant-steps-item-icon>.ant-steps-icon {
+	color: #4e35b1 !important;
+}
+
+.ant-modal-footer {
+	display: none;
+}
+
+.ant-modal-close {
+	display: none;
+}
+@media (max-width:479px) {
+	:where(.css-dev-only-do-not-override-gzal6t).ant-modal .ant-modal-content {
+		padding: 20px 15px 10px 15px;
+	}
+}

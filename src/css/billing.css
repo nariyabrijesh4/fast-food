@@ -1,0 +1,84 @@
+.bill-outer {
+    padding: 15px 10px;
+    width: 23%;
+    border-right: 2px solid #4e35b1;
+    position: fixed;
+    top: 60px;
+    display: block;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px;
+    right: 0;
+}
+
+.bill-outer .title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.table .header-name,
+.subtotal {
+    display: flex;
+    border-bottom: 1px solid #cdcdcd;
+    align-items: center;
+}
+
+.table .products {
+    border-top: 1px solid #cdcdcd;
+    display: flex;
+    align-items: center;
+}
+
+.table .header-name {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.table .header-name .pname,
+.qty,
+.total {
+    font-weight: 700;
+    color: #4e35b1;
+
+}
+
+.delete-btn-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+}
+
+.delete-btn-btn:hover {
+    background-color: #ede7f6;
+}
+
+button {
+    border: none;
+    color: #4e35b1;
+    width: 40px;
+}
+
+.table .subtotal {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4e35b1;
+}
+
+.table .order {
+    width: 120px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    background: #4e35b1;
+}
+
+@media(max-width:1200px) {
+    .bill-outer{
+        display: none;
+    }
+}
